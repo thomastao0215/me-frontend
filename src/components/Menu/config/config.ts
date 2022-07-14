@@ -8,7 +8,7 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
-    label: t('Buy MVS'),
+    label: t('Buy ETOP'),
     icon: 'Swap',
     href: '#',
     items: [],

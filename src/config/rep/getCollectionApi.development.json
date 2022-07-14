@@ -5,14 +5,14 @@
     "collectionId": "1",
     "address": "0x3bfe6870a63a463b2380927d5c331bdb684bf964",
     "owner": "0x02c4b20b4975e58989853337c1e2ae9e527611b1",
-    "name": "Multiverse NFT",
-    "description": "Multiverse NFT is Multiverse's original NFT Collection.",
+    "name": "Pioneer NFT",
+    "description": "Pioneer NFT is MetaEtopia's original NFT Collection.",
     "symbol": "MVSNFT",
     "totalSupply": "10000",
     "verified": false,
     "createdAt": "2021-11-10T06:32:57.000Z",
     "updatedAt": "2021-11-10T06:32:57.000Z",
-    "avatar": "https://d2tauiodk94ll0.cloudfront.net/frontend/sm-logo.png",
+    "avatar": "https://metaetopia.s3.ap-east-1.amazonaws.com/meta.png",
     "attributes": {
       "total": 1,
       "data": {
@@ -27,10 +27,10 @@
         "BTC": {}
       }
     },
-    "bannerJSON": "{\"small\":\"https://d2tauiodk94ll0.cloudfront.net/frontend/mvs-collection-banner-sm.png\",\"large\":\"https://d2tauiodk94ll0.cloudfront.net/frontend/mvs-collection-banner.png\"}",
+    "bannerJSON": "{\"small\":\"https://metaetopia.s3.ap-east-1.amazonaws.com/meta.png\",\"large\":\"https://metaetopia.s3.ap-east-1.amazonaws.com/meta.png\"}",
     "banner": {
-      "small": "https://d2tauiodk94ll0.cloudfront.net/frontend/mvs-collection-banner-sm.png",
-      "large": "https://d2tauiodk94ll0.cloudfront.net/frontend/mvs-collection-banner.png"
+      "small": "https://metaetopia.s3.ap-east-1.amazonaws.com/meta.png",
+      "large": "https://metaetopia.s3.ap-east-1.amazonaws.com/meta.png"
     }
   }
 }

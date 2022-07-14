@@ -25,7 +25,7 @@ const BannerNftPoolCard: React.FC<BannerNftPoolCard> = ({ poolStruct }) => {
         <CardBody>
           <Container flexDirection={['column', null, 'column']} justifyContent="center">
             <Heading scale="md" color="white">
-              {t('Multiverse Pool')}
+              {t('MetaEtopia Pool')}
             </Heading>
             <Heading scale="xl" color="white">
               {totalOfPool ? formatNumber(totalOfPool, 0, 2) : <Skeleton width="200px" height={48} />}

@@ -16,7 +16,7 @@ import { Language } from '@pancakeswap/uikit'
 // export const TA: Language = { locale: 'ta-IN', language: 'தமிழ்', code: 'ta' }
 // export const RO: Language = { locale: 'ro-RO', language: 'Română', code: 'ro' }
 // export const UK: Language = { locale: 'uk-UA', language: 'Українська', code: 'uk' }
-// export const ZHTW: Language = { locale: 'zh-TW', language: '繁體中文', code: 'zh-tw' }
+export const ZHTW: Language = { locale: 'zh-TW', language: '繁體中文', code: 'zh-tw' }
 // export const ZHCN: Language = { locale: 'zh-CN', language: '简体中文', code: 'zh-cn' }
 
 export const AR: Language = { locale: 'ar-SA', language: 'العربية', code: 'ar' } // العربية   AR
@@ -47,17 +47,17 @@ export const languages = {
   // 'ta-IN': TA,
   // 'uk-UA': UK,
   // 'zh-CN': ZHCN,
-  // 'zh-TW': ZHTW,
-  'ar-SA': AR,
+  'zh-TW': ZHTW,
+  // 'ar-SA': AR,
   'en-US': EN,
-  'es-ES': ESES,
-  'fr-FR': FR,
-  'ja-JP': JA,
-  'ko-KR': KO,
-  'pt-PT': PTPT,
-  'ru-RU': RU,
-  'tr-TR': TR,
-  'vi-VN': VI,
+  // 'es-ES': ESES,
+  // 'fr-FR': FR,
+  // 'ja-JP': JA,
+  // 'ko-KR': KO,
+  // 'pt-PT': PTPT,
+  // 'ru-RU': RU,
+  // 'tr-TR': TR,
+  // 'vi-VN': VI,
 }
 
 export const languageList = Object.values(languages)

@@ -2,8 +2,8 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'MVS - A Decentralized Currency in Multiverse',
-  description: 'MVS - A Decentralized Currency in Multiverse on Binance Smart Chain (BSC).',
+  title: 'MetaEtopia - A role-development game based on the Binance Smart Chain (BSC)',
+  description: 'MetaEtopia - A role-development game based on the Binance Smart Chain (BSC)',
   image: 'https://mvscoin.org/images/hero.png',
 }
 
@@ -28,27 +28,27 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('MVS')}`,
+        title: `${t('Home')} | ${t('ETOP')}`,
       }
     case '/nft-pool':
       return {
-        title: `${t('MVS Pool')} | ${t('MVS')}`,
+        title: `${t('ETOP Pool')} | ${t('ETOP')}`,
       }
     case '/nft-museum':
       return {
-        title: `${t('NFT Museum')} | ${t('MVS')}`,
+        title: `${t('NFT Museum')} | ${t('ETOP')}`,
       }
     case '/nfts':
       return {
-        title: `${t('NFT Market')} | ${t('MVS')}`,
+        title: `${t('NFT Market')} | ${t('ETOP')}`,
       }
     case '/nfts/bag':
       return {
-        title: `${t('Your Nfts')} | ${t('MVS')}`,
+        title: `${t('Your Nfts')} | ${t('ETOP')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('MVS')}`,
+        title: `${t('Collections')} | ${t('ETOP')}`,
       }
     // case '/swap':
     //   return {

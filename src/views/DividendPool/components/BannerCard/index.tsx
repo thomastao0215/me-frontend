@@ -25,7 +25,7 @@ const BannerCard: React.FC<BannerCard> = ({ mvsDividendPoolInfo }) => {
           <Container flexDirection={['column', null, 'column']} justifyContent="center">
             <Flex justifyContent="space-between" flexWrap="wrap">
               <Heading scale="md" color="white">
-                {t('Multiverse Divedend Pool')}
+                {t('MetaEtopia Divedend Pool')}
               </Heading>
             </Flex>
             <Heading scale="xl" color="white">

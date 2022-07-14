@@ -21,7 +21,7 @@ const Collections = () => {
     <>
       <Flex alignItems="center" justifyContent="space-between" mb="32px">
         <Heading as="h3" scale="lg">
-          {t('Multiverse NFT')}
+          {t('Pioneer NFT')}
         </Heading>
         {/* <Button
           as={Link}

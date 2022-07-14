@@ -25,7 +25,7 @@ export const BASE_BSC_SCAN_URLS = {
 export const CAKE_PER_BLOCK = 40
 export const BLOCKS_PER_YEAR = (60 / BSC_BLOCK_TIME) * 60 * 24 * 365 // 10512000
 export const CAKE_PER_YEAR = CAKE_PER_BLOCK * BLOCKS_PER_YEAR
-export const BASE_URL = 'https://mvscoin.org'
+export const BASE_URL = 'https://metaetopia.com/'
 export const PANCAKE_BASE_URL = 'https://pancakeswap.finance'
 export const BASE_ADD_LIQUIDITY_URL = `${BASE_URL}/add`
 export const BASE_BSC_SCAN_URL = BASE_BSC_SCAN_URLS[ChainId.MAINNET]
@@ -38,13 +38,13 @@ export const IPFS_GATEWAY = 'https://ipfs.io/ipfs'
 // In reality its 10000 because of fast refresh, a bit less here to cover for possible long request times
 export const PANCAKE_BUNNIES_UPDATE_FREQUENCY = 8000
 
-export const NFTPOOL_BANNER = 'https://d2tauiodk94ll0.cloudfront.net/frontend/mvs-pool-banner.png'
-export const DIVIDENDPOOL_BANNER = 'https://d2tauiodk94ll0.cloudfront.net/frontend/sr-ssr-banner.png'
-export const TO_DIVIDENDPOOL_BACKGROUND = 'https://d2tauiodk94ll0.cloudfront.net/frontend/sr-ssr-banner.png'
+export const NFTPOOL_BANNER = 'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp'
+export const DIVIDENDPOOL_BANNER = 'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp'
+export const TO_DIVIDENDPOOL_BACKGROUND = 'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp'
 export const NFTMARKET_SLIDES = [
-  'https://d2tauiodk94ll0.cloudfront.net/frontend/nft-market-s1.png',
-  'https://d2tauiodk94ll0.cloudfront.net/frontend/nft-market-b3.png',
-  'https://d2tauiodk94ll0.cloudfront.net/frontend/nft-market-b7.png',
+  'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp',
+  'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp',
+  'https://metaetopia.s3.ap-east-1.amazonaws.com/hero.webp',
 ]
 
 export const NFT_FILTER = {

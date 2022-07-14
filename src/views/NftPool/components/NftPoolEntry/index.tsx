@@ -87,7 +87,7 @@ const BannerNftPoolCard: React.FC<BannerNftPoolCard> = ({ poolStruct, userPoolSt
             <Box>
               <Flex flexDirection="column" justifyContent="space-between">
                 <Flex justifyContent="space-between" alignItems="center">
-                  <Text color="textSubtle">MVS</Text>
+                  <Text color="textSubtle">ETOP</Text>
                   <HarvestButton text={t('Harvest')} disabled={unharvestRewardAmount <= 0} />
                 </Flex>
                 <Flex mt="20px" flexDirection="row">
